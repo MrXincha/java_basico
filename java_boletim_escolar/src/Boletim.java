@@ -7,13 +7,13 @@ public class Boletim {
         System.out.println("Digite a nota: ");
         int nota = scanner.nextInt();
             if (nota<6){
-            System.out.println("Reprovado!"); 
+                System.out.println("Reprovado!"); 
             }
             else if (nota==6){
-            System.out.println("Refaca!");
+                System.out.println("DP");
             }
             else if (nota>=6){
-            System.out.println("Aprovado!");
+                System.out.println("Aprovado!");
             }
         scanner.close();
         }
