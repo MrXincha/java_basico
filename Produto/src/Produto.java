@@ -30,8 +30,4 @@ public class Produto {
     public double calcularValorEstoque(){
         return preco * quantidade;
     }
-
-    String calcularValorEstoque() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
 }
